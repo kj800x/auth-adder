@@ -1,0 +1,19 @@
+{
+  "name": "auth-adder",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "typescript": "5.8.3"
+  },
+  "scripts": {
+    "start": "npm run build && node lib/index.js",
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}
